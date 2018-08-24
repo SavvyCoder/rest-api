@@ -1,0 +1,24 @@
+{
+  "name": "dissuade",
+  "version": "1.0.0",
+  "description": "A social media website for carefully constructed positions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Savinda G",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
