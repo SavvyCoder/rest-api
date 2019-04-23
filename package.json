@@ -10,6 +10,9 @@
   "author": "Savinda G",
   "license": "ISC",
   "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "bcrypt": "^3.0.0",
     "bcryptjs": "^2.4.3",
     "express": "^4.16.3",
@@ -18,9 +21,11 @@
     "mongoose": "^5.2.9",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
+    "prettier": "^1.14.2",
     "validator": "^10.6.0"
   },
   "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "nodemon": "^1.18.3"
   }
 }
